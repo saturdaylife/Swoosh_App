@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- the first two numbers in the hex is the opacity while the last 6 numbers are the color hex code-->
+    <solid
+            android:color="#64000000"
+            />
+    <stroke
+            android:color="#FFFFFF"
+            android:width="2dp"
+            />
+</shape>
