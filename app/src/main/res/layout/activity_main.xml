@@ -37,9 +37,9 @@
             tools:layout_editor_absoluteY="187dp" android:gravity="center" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
     <TextView
-            android:text="Find a team in your city, & dominate the league."
-            android:layout_width="268dp"
-            android:layout_height="45dp"
+            android:text="Find a team in your city, and dominate the league."
+            android:layout_width="282dp"
+            android:layout_height="43dp"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:id="@+id/textView3" android:textColor="#FFFFFF" android:singleLine="false"
             android:textAlignment="center"
