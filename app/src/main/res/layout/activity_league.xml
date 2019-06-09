@@ -32,23 +32,32 @@
             android:orientation="vertical"
             android:layout_width="372dp"
             android:layout_height="197dp" app:layout_constraintEnd_toEndOf="parent"
-            tools:layout_editor_absoluteY="200dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp" app:layout_constraintHorizontal_bias="0.428">
+            android:layout_marginStart="16dp" app:layout_constraintHorizontal_bias="0.428"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/textView4">
         <ToggleButton
                 android:text="Mens"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/toggleButton5" android:textOff="Mens"
-                android:textOn="Mens" android:background="@drawable/swoosh_button_checked" android:textColor="#FFFFFF"/>
+                android:textOn="Mens" android:background="@drawable/swoosh_toggle" android:textColor="#FFFFFF"/>
         <ToggleButton
                 android:text="Womens"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton6" android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp" android:textOff="Womens" android:textOn="Womens"/>
+                android:layout_height="wrap_content" android:id="@+id/toggleButton6" android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp" android:textOff="Womens" android:textOn="Womens"
+                android:background="@drawable/swoosh_toggle" android:textColor="#FFFFFF"/>
         <ToggleButton
                 android:text="Co-ed"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/toggleButton7" android:textOff="Co-ed"
-                android:textOn="Co-ed"/>
+                android:textOn="Co-ed" android:background="@drawable/swoosh_toggle" android:textColor="#FFFFFF"/>
     </LinearLayout>
+    <Button
+            android:text="Next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="16dp"
+            android:id="@+id/button2" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:textColor="#FFFFFF"
+            android:background="@drawable/swoosh_button" android:fontFamily="@font/montserrat"/>
 </android.support.constraint.ConstraintLayout>
