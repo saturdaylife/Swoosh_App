@@ -7,4 +7,48 @@
         android:layout_height="match_parent"
         tools:context=".LeagueActivity">
 
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp" app:srcCompat="@drawable/desiredleaguebg"
+            android:id="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:scaleType="centerCrop"/>
+
+    <ImageView
+            android:layout_width="88dp"
+            android:layout_height="29dp" app:srcCompat="@drawable/swooshlogo"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="24dp" app:layout_constraintEnd_toEndOf="parent" android:id="@+id/imageView2"
+            android:scaleType="fitCenter"/>
+    <TextView
+            android:text="Desired League"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="125dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/textView4" android:textSize="18sp" android:fontFamily="@font/montserrat"
+            android:textAlignment="center" android:textColor="#FFFFFF"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="372dp"
+            android:layout_height="197dp" app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="200dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp" app:layout_constraintHorizontal_bias="0.428">
+        <ToggleButton
+                android:text="Mens"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/toggleButton5" android:textOff="Mens"
+                android:textOn="Mens" android:background="@drawable/swoosh_button_checked" android:textColor="#FFFFFF"/>
+        <ToggleButton
+                android:text="Womens"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/toggleButton6" android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" android:textOff="Womens" android:textOn="Womens"/>
+        <ToggleButton
+                android:text="Co-ed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/toggleButton7" android:textOff="Co-ed"
+                android:textOn="Co-ed"/>
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
