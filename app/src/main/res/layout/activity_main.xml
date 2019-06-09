@@ -34,8 +34,9 @@
             android:layout_height="26dp"
             android:id="@+id/textView2" android:fontFamily="@font/montserrat" android:textSize="22sp"
             android:textAllCaps="true" android:textColor="#FFFFFF"
-            tools:layout_editor_absoluteY="187dp" android:gravity="center" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"/>
+            android:gravity="center" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"/>
     <TextView
             android:text="Find a team in your city, and dominate the league."
             android:layout_width="282dp"
