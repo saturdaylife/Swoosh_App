@@ -52,7 +52,7 @@
             android:text="@string/get_started"
             android:layout_width="367dp"
             android:layout_height="44dp"
-            android:id="@+id/button" tools:text="GET STARTED"
+            android:id="@+id/getStartedBtn" tools:text="GET STARTED"
             android:fontFamily="@font/montserrat" android:layout_marginBottom="16dp"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" android:textColor="#FFFFFF"
