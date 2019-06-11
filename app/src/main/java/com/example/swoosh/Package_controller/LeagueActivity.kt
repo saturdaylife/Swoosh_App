@@ -8,7 +8,7 @@ import com.example.swoosh.Utilities.EXTRA_LEAGUE
 import com.example.swoosh.R
 import kotlinx.android.synthetic.main.activity_league.*
 
-class LeagueActivity : BaseActivity() {
+open class LeagueActivity : BaseActivity() {
 
     var selectedLeague = ""
 
