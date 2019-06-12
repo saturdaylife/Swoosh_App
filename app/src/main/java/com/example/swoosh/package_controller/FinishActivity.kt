@@ -1,7 +1,7 @@
-package com.example.swoosh.Package_controller
+package com.example.swoosh.package_controller
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import com.example.swoosh.R
 
 class FinishActivity : AppCompatActivity() {
