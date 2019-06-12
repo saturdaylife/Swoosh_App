@@ -21,14 +21,14 @@ open class LeagueActivity : BaseActivity() {
         womensLeagueBtn.isChecked = false
         coedLeagueBtn.isChecked = false
 
-        selectedLeague = "mens"
+        selectedLeague = "men's"
     }
 
     fun onWomensClicked(view: View) {
         mensLeagueBtn.isChecked = false
         coedLeagueBtn.isChecked = false
 
-        selectedLeague = "womens"
+        selectedLeague = "women's"
     }
 
     fun onCoedClicked(view: View) {
