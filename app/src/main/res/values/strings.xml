@@ -20,4 +20,7 @@
     <string name="finish">FINISH</string>
     <string name="beginnerballerbg">beginnerballerBG</string>
     <string name="g">G</string>
+    <string name="search_league">"Looking for a co-ed beginner league near you…"</string>
+    <string name="finishbackground">finishbackground</string>
+
 </resources>
