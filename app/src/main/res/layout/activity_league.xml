@@ -28,15 +28,16 @@
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:id="@+id/textView4" android:textSize="18sp" android:fontFamily="@font/montserrat"
-            android:textAlignment="center" android:textColor="#FFFFFF" android:layout_marginTop="72dp"
+            android:textAlignment="center" android:textColor="#FFFFFF" android:layout_marginTop="24dp"
             app:layout_constraintTop_toBottomOf="@+id/imageView2"/>
     <LinearLayout
             android:orientation="vertical"
             android:layout_width="0dp"
-            android:layout_height="197dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp" app:layout_constraintHorizontal_bias="0.428"
-            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/textView4">
+            android:layout_marginStart="16dp" app:layout_constraintHorizontal_bias="1.0"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/textView4"
+            android:id="@+id/linearLayout2">
         <ToggleButton
                 android:text="@string/mens"
                 android:layout_width="match_parent"
@@ -66,5 +67,8 @@
             android:layout_marginStart="16dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp" android:textColor="#FFFFFF"
             android:background="@drawable/swoosh_button" android:fontFamily="@font/montserrat"
-            android:onClick="leagueNextClicked"/>
+            android:onClick="leagueNextClicked"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+            app:layout_constraintVertical_bias="0.96"/>
 </android.support.constraint.ConstraintLayout>
